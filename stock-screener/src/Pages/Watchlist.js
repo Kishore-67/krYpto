@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Watchlist.css';
-import NewsFeed from './NewsFeed';
+
 function Watchlist() {
   const stocks = [
     { name: 'Apple Inc.', symbol: 'AAPL', price: 145.32, change: -0.48 },
