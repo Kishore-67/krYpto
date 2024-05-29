@@ -112,6 +112,6 @@ app.get('/balance', async (req, res) => {
   }
 });
 
-app.listen(5000, () => {
+app.listen(0.0.0.0, () => {
   console.log("Server listening on http://127.0.0.1:5000");
 });
