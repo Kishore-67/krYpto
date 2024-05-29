@@ -3,13 +3,12 @@ import ApexChart1 from './ApexChart1';
 import ApexChart2 from './ApexChart2';
 import Navbar from '../Navbar.js'
 import '../Styles/Wishlist.css'
-import NewsFeed from './NewsFeed.js';
+
 
 function Wishlist() {
   return (
     <>
     <Navbar/>
-    <NewsFeed/>
     
     {/* <div className="Whole">
     <div style={{marginTop:10,fontFamily:'fantasy',fontSize:30}}>Wishlist</div>
