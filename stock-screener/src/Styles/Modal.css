@@ -1,0 +1,48 @@
+/* Modal.css */
+
+.Modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .Modal-content {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    color: red;
+    top: 235px;
+    right: 565px;
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .Modal-content p{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+
+  .Modal-content input{
+    height:50px;
+    width:190px;
+    background-color:'white';
+    
+    border-radius:10px;
+  }

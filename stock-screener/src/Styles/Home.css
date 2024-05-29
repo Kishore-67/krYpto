@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pacifico&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Sedan+SC&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Main1{
+    background-image: url('../Resources/Dash-back.jpg');
+    background-size: cover;
+    background-position:center;
+    width: 1520px;
+    height: 1200px;
+  }
+
+
+  .Ca-con {
+    width: 90%;
+    height: 375px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #485563, #29323c);
+    box-shadow: 0 4px 8px 0 rgba(178, 177, 177, 0.425), 0 6px 20px 0 rgba(113, 113, 113, 0.19);
+    padding: 30px;
+  
+  }
+
+  h1{
+    font-family: "Lato", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+   
+  }
+
+  .T1{
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+  }
+  .but{
+  width: 200px;
+  margin-top: 3%;
+  margin-left: 43%;
+  height: 50px;
+  display: flex;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.425), 0 6px 20px 0 rgba(113, 113, 113, 0.19);
+  background-color: #00E7EF;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+  }
+  .but:hover{
+    transform: translateY(-4px);
+
+  }
+
+  .pap-tra{
+    margin: 40px;
+    margin-top: 70px;
+    width: 50%;
+    height: 445px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #485563, #29323c);
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(22, 197, 224);
+
+
+  }
+  .pap-1{
+    margin-left: 2%;
+    color: #ffffff;
+    line-height: 190%;
+    font-family: "Sedan SC", serif;
+    font-weight: 600;
+    font-size: 40px;
+
+
+
+
+  }
+  .pap-2{
+    margin-left: 7%;
+    font-family: "Poetsen One", sans-serif;
+    color: #F7F6FC;
+    line-height: 240%;
+    font-size: 24px;
+    
+
+
+  }
+
+  .but1{
+    width: 200px;
+    margin-top: 3%;
+    margin-left: 43%;
+    height: 50px;
+    display: flex;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffffb0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.425), 0 6px 20px 0 rgba(113, 113, 113, 0.19);
+    background-color: #E9BE63;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  
+    }
+    .but1:hover{
+      transform: translateY(-4px);
+  
+    }

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+
+
+.Main{
+  background-image: url('../Resources/Dash-back.jpg');
+  background-size: cover;
+  background-position:center;
+  width: 1520px;
+  height: 1200px;
+}
+/* .dashboard-container {
+  width: 20%;
+  position: relative;
+  top: 2%;
+  left: 5%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgb(0, 81, 255);} */
+
+.chart-container {
+  padding: 10px;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+    border-radius: 20px;
+  box-shadow: 0 2px 6px rgb(0, 81, 255);
+  height: 275px;
+  width: 775px;
+  margin-left: 30px;
+
+  /* Adjust the height of the container as needed */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.apexcharts-toolbar {
+  display: none;
+}
+
+.apexcharts-xaxis-label,
+.apexcharts-yaxis-label {
+  font-size: 12px;
+}
+.chart-container {
+  position: relative;
+}
+
+.buttons-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.buy-button,
+.sell-button {
+  margin-bottom: 5px; /* Adjust spacing between buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  font-size: 10px; /* Adjust button font size */
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sell-button {
+  background-color: #f44336; /* Red */
+}
+
+.buy-button:hover,
+.sell-button:hover {
+  opacity: 0.8; /* Adjust button opacity on hover */
+}
+.Order-Container{
+  display: flex;
+  height: 200px;
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(51, 88, 190, 0.568);
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.Position-Container{
+  display: flex;
+  height: 200px;
+  background: linear-gradient(to right, #232526, #414345);
+    padding: 20px;
+
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(51, 88, 190, 0.568);
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Order-Container p {
+  margin: 5px 0;
+  font-family: 'Cursive', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff; /* Dark grey text */
+}
+
+.Order-Container .title {
+  font-family: 'Cursive', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff; /* Black text */
+  margin-bottom: 10px;
+}
+.Stocks-list{
+  background: linear-gradient(to right, #232526, #414345);  padding: 10px;
+  height: 600px;
+  width: 300px;
+}
+
+.Para{
+  font-family: 'Rajdhani, sans-serif';
+  margin-top: 1%;
+  margin-left: 30px;
+  font-size:20px;
+  font-weight: 300;
+}

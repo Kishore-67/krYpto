@@ -1,0 +1,29 @@
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take up the full height of the viewport */
+    
+  }
+  
+  .get-started-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff; /* Example button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 3%;
+
+  }
+  
+  .get-started-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  p{
+    margin-top: 23%;
+  }
+  
